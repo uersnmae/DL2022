@@ -4,8 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+[최규빈](https://github.com/guebin)
+- guebin@jbnu.ac.kr
+- 자연과학대학교 본관 205호 
+- [카카오톡 오픈채널](http://pf.kakao.com/_cxdAes/chat) [^1]
 
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+[^1]: 2022년 2학기 종료후 폐쇄예정 
