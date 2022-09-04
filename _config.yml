@@ -39,6 +39,7 @@ baseurl: "/DL2022" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
+    youtube: https://www.youtube.com/channel/UCQk9RyBNgXc7ORIsYlOfQrg
     #twitter: fastdotai
     github: guebin
 
