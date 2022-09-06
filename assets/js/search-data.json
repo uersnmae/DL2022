@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "(1주차) 9월6일",
-            "content": "!git add . !git commit -m . !git push . On branch master Your branch is ahead of &#39;origin/master&#39; by 1 commit. (use &#34;git push&#34; to publish your local commits) nothing to commit, working tree clean To https://github.com/guebin/DL2022.git ! [rejected] master -&gt; master (fetch first) error: failed to push some refs to &#39;https://github.com/guebin/DL2022.git&#39; hint: Updates were rejected because the remote contains work that you do hint: not have locally. This is usually caused by another repository pushing hint: to the same ref. You may want to first integrate the remote changes hint: (e.g., &#39;git pull ...&#39;) before pushing again. hint: See the &#39;Note about fast-forwards&#39; in &#39;git push --help&#39; for details. .",
+            "content": "",
             "url": "https://guebin.github.io/DL2022/2022/09/06/(1%EC%A3%BC%EC%B0%A8)-9%EC%9B%946%EC%9D%BC.html",
             "relUrl": "/2022/09/06/(1%EC%A3%BC%EC%B0%A8)-9%EC%9B%946%EC%9D%BC.html",
             "date": " • Sep 6, 2022"
