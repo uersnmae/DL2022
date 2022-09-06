@@ -2,8 +2,19 @@
   
     
         "post0": {
+            "title": "(1주차) 9월6일",
+            "content": "!git add . !git commit -m . !git push . On branch master Your branch is ahead of &#39;origin/master&#39; by 1 commit. (use &#34;git push&#34; to publish your local commits) nothing to commit, working tree clean To https://github.com/guebin/DL2022.git ! [rejected] master -&gt; master (fetch first) error: failed to push some refs to &#39;https://github.com/guebin/DL2022.git&#39; hint: Updates were rejected because the remote contains work that you do hint: not have locally. This is usually caused by another repository pushing hint: to the same ref. You may want to first integrate the remote changes hint: (e.g., &#39;git pull ...&#39;) before pushing again. hint: See the &#39;Note about fast-forwards&#39; in &#39;git push --help&#39; for details. .",
+            "url": "https://guebin.github.io/DL2022/2022/09/06/(1%EC%A3%BC%EC%B0%A8)-9%EC%9B%946%EC%9D%BC.html",
+            "relUrl": "/2022/09/06/(1%EC%A3%BC%EC%B0%A8)-9%EC%9B%946%EC%9D%BC.html",
+            "date": " • Sep 6, 2022"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "(1주차) 9월1일",
-            "content": "&#44053;&#51032;&#50689;&#49345; . 없어요.. | . &#51656;&#47928;&#54616;&#45716; &#48169;&#48277; . &#49688;&#50629;&#47785;&#54364; . - 다양한 딥러닝 분석기법의 원리를 이해한다. . - 파이토치 사용방법을 익힌다. . &#44053;&#51032;&#44368;&#51116; &#48143; &#52280;&#44256;&#51088;&#47308; . - 강의교재: 강의노트 . - 참고자료: . 2021년 빅데이터분석 강의노트 (본 수업은 2021년 빅데이터분석 수업과 유사한 콘텐츠로 진행할 예정임) | 2022년 파이썬입문 강의노트 (numpy, class 부분이 약하다고 생각하면 참고 할 것) | fastai, Deep Learning for Coders with fastai &amp; PyTorch, Deep Learning for Coders with fastai &amp; PyTorch (번역판) | . &#49440;&#49688;&#44284;&#47785; . - 필수: 파이썬입문 (수업시간에 별도로 파이썬을 리뷰하는 시간을 갖지 않음) . - 선택: 수리통계학, 회귀분석, 선형대수학 (수업이해에 필요한 최소한의 지식은 리뷰함) . &#44053;&#51032;&#48276;&#50948; . - 딥러닝의 기초: DNN, 손실함수, 옵티마이저, 역전파, universal approximation thm . - 이미지 자료 분석: CNN, Class Activation Map (CAM) and XAI . - 추천시스템: SVD, Collaborative Filtering ... . - 텍스트와 시퀀스 자료 분석: RNN, LSTM, GRU, Attention... . - 생성모형: 식별모형과 생성모형, GAN . &#51452;&#51032;&#49324;&#54637; . - 출석, 과제를 모두 제출하여도 중간고사/기말고사 점수가 매우 낮을 경우 F 혹은 D 학점이 나갈 수 있음. . - 2022년 1학기 데이터과학 수업과 내용이 일부 겹칠 수 있음 (다만 2022년 1학기 데이터과학 수업은 텐서플로우로 본 수업은 파이토치로 진행하는 차이점은 있음) .",
+            "content": "&#44053;&#51032;&#50689;&#49345; . 없어요.. | . &#51656;&#47928;&#54616;&#45716; &#48169;&#48277; . &#49688;&#50629;&#47785;&#54364; . - 다양한 딥러닝 분석기법의 원리를 이해한다. . - 파이토치 사용방법을 익힌다. . &#44053;&#51032;&#44368;&#51116; &#48143; &#52280;&#44256;&#51088;&#47308; . - 강의교재: 강의노트 . - 참고자료: . 2021년 빅데이터분석 강의노트 (본 수업은 2021년 빅데이터분석 수업과 유사한 콘텐츠로 진행할 예정임) | 2022년 파이썬입문 강의노트 (numpy, class 부분이 약하다고 생각하면 참고 할 것) | fastai, Deep Learning for Coders with fastai &amp; PyTorch, Deep Learning for Coders with fastai &amp; PyTorch (번역판) | . &#49440;&#49688;&#44284;&#47785; . - 필수: 파이썬입문 (수업시간에 별도로 파이썬을 리뷰하는 시간을 갖지 않음) . - 선택: 수리통계학, 회귀분석, 선형대수학 (수업이해에 필요한 최소한의 지식은 리뷰함) . &#44053;&#51032;&#48276;&#50948; . - 딥러닝의 기초: DNN, 손실함수, 옵티마이저, 역전파, universal approximation thm . - 이미지 자료 분석: CNN, Class Activation Map (CAM) and XAI . - 추천시스템: SVD, Collaborative Filtering ... . - 텍스트와 시퀀스 자료 분석: RNN, LSTM, GRU, Attention... . - 생성모형: 식별모형과 생성모형, GAN . &#51452;&#51032;&#49324;&#54637; . - 출석을 모두 하고 과제를 모두 제출하였더라도 중간고사와 기말고사 합산점수가 매우 낮을 경우 F 혹은 D 학점이 나갈 수 있음. . - 2022년 1학기 데이터과학 수업과 내용이 일부 겹칠 수 있음 (다만 2022년 1학기 데이터과학 수업은 텐서플로우로 본 수업은 파이토치로 진행하는 차이점은 있음) .",
             "url": "https://guebin.github.io/DL2022/2022/09/01/(1%EC%A3%BC%EC%B0%A8)-9%EC%9B%941%EC%9D%BC.html",
             "relUrl": "/2022/09/01/(1%EC%A3%BC%EC%B0%A8)-9%EC%9B%941%EC%9D%BC.html",
             "date": " • Sep 1, 2022"
@@ -12,7 +23,7 @@
     
   
     
-        ,"post1": {
+        ,"post2": {
             "title": "(A1) 깃허브와 fastpages를 이용하여 블로그 개설하기",
             "content": "About this doc . - 본 포스트는 2021년 1학기 Python 입문 강의내용중 일부를 업로드 하였음. . - Github, fastpages를 사용하여 블로그를 개설하고 관리하는 방법에 대한 설명임. . .",
             "url": "https://guebin.github.io/DL2022/2021/08/17/(A1)-%EA%B9%83%ED%97%88%EB%B8%8C%EC%99%80-fastpages%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EC%84%A4%ED%95%98%EA%B8%B0.html",
