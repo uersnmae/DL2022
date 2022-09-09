@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>(1주차) 9월8일 – draft | 딥러닝 (전북대학교 2022년 2학기)</title>
+<title>(1주차) 9월8일 | 딥러닝 (전북대학교 2022년 2학기)</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="(1주차) 9월8일 – draft" />
+<meta property="og:title" content="(1주차) 9월8일" />
 <meta name="author" content="최규빈" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="추천시스템" />
@@ -17,9 +17,9 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-09-08T00:00:00-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="(1주차) 9월8일 – draft" />
+<meta property="twitter:title" content="(1주차) 9월8일" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"최규빈"},"dateModified":"2022-09-08T00:00:00-05:00","datePublished":"2022-09-08T00:00:00-05:00","description":"추천시스템","headline":"(1주차) 9월8일 – draft","mainEntityOfPage":{"@type":"WebPage","@id":"https://guebin.github.io/DL2022/2022/09/08/(1%EC%A3%BC%EC%B0%A8)-9%EC%9B%948%EC%9D%BC.html"},"url":"https://guebin.github.io/DL2022/2022/09/08/(1%EC%A3%BC%EC%B0%A8)-9%EC%9B%948%EC%9D%BC.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"최규빈"},"dateModified":"2022-09-08T00:00:00-05:00","datePublished":"2022-09-08T00:00:00-05:00","description":"추천시스템","headline":"(1주차) 9월8일","mainEntityOfPage":{"@type":"WebPage","@id":"https://guebin.github.io/DL2022/2022/09/08/(1%EC%A3%BC%EC%B0%A8)-9%EC%9B%948%EC%9D%BC.html"},"url":"https://guebin.github.io/DL2022/2022/09/08/(1%EC%A3%BC%EC%B0%A8)-9%EC%9B%948%EC%9D%BC.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/DL2022/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://guebin.github.io/DL2022/feed.xml" title="딥러닝 (전북대학교 2022년 2학기)" /><link rel="shortcut icon" type="image/x-icon" href="/DL2022/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -90,7 +90,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">(1주차) 9월8일 -- draft</h1><p class="page-description">추천시스템</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-09-08T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">(1주차) 9월8일</h1><p class="page-description">추천시스템</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-09-08T00:00:00-05:00" itemprop="datePublished">
         Sep 8, 2022
       </time>• 
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -186,6 +186,14 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>(1)</code> 데이터의 정리</p>
+
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -193,7 +201,7 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">path</span><span class="o">=</span><span class="n">untar_data</span><span class="p">(</span><span class="n">URLs</span><span class="o">.</span><span class="n">PETS</span><span class="p">)</span><span class="o">/</span><span class="s1">'images'</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="n">untar_data</span><span class="p">(</span><span class="n">URLs</span><span class="o">.</span><span class="n">PETS</span><span class="p">)</span><span class="o">/</span><span class="s1">'images'</span>
 </pre></div>
 
     </div>
@@ -227,11 +235,7 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dls</span><span class="o">=</span><span class="n">ImageDataLoaders</span><span class="o">.</span><span class="n">from_name_func</span><span class="p">(</span>
-    <span class="n">path</span><span class="p">,</span>
-    <span class="n">fnames</span><span class="p">,</span>
-    <span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="s1">'cat'</span> <span class="k">if</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">isupper</span><span class="p">()</span> <span class="k">else</span> <span class="s1">'dog'</span><span class="p">),</span>
-    <span class="n">item_tfms</span><span class="o">=</span><span class="n">Resize</span><span class="p">(</span><span class="mi">224</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">fname</span><span class="p">:</span> <span class="s1">'cat'</span> <span class="k">if</span> <span class="n">fname</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">isupper</span><span class="p">()</span> <span class="k">else</span> <span class="s1">'dog'</span>
 </pre></div>
 
     </div>
@@ -248,6 +252,35 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dls</span> <span class="o">=</span> <span class="n">ImageDataLoaders</span><span class="o">.</span><span class="n">from_name_func</span><span class="p">(</span>
+    <span class="n">path</span><span class="p">,</span> 
+    <span class="n">fnames</span><span class="p">,</span>
+    <span class="n">f</span><span class="p">,</span> <span class="c1"># f대신 (lambda fname: 'cat' if fname[0].isupper() else 'dog') 를 넣어도 가능</span>
+    <span class="n">item_tfms</span><span class="o">=</span><span class="n">Resize</span><span class="p">(</span><span class="mi">224</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>(2)</code> lrnr 오브젝트 생성</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lrnr</span> <span class="o">=</span> <span class="n">cnn_learner</span><span class="p">(</span><span class="n">dls</span><span class="p">,</span><span class="n">resnet34</span><span class="p">,</span><span class="n">metrics</span><span class="o">=</span><span class="n">error_rate</span><span class="p">)</span>
 </pre></div>
 
@@ -255,28 +288,17 @@ window.onload = wrap_img;
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>/home/cgb4/anaconda3/envs/py37/lib/python3.7/site-packages/fastai/vision/learner.py:284: UserWarning: `cnn_learner` has been renamed to `vision_learner` -- please update your code
-  warn("`cnn_learner` has been renamed to `vision_learner` -- please update your code")
-/home/cgb4/anaconda3/envs/py37/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
-  f"The parameter '{pretrained_param}' is deprecated since 0.13 and will be removed in 0.15, "
-/home/cgb4/anaconda3/envs/py37/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet34_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet34_Weights.DEFAULT` to get the most up-to-date weights.
-  warnings.warn(msg)
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>(3)</code> lrnr.학습()</p>
+
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -336,9 +358,9 @@ window.onload = wrap_img;
   <tbody>
     <tr>
       <td>0</td>
-      <td>0.168286</td>
-      <td>0.026809</td>
-      <td>0.010149</td>
+      <td>0.152362</td>
+      <td>0.015960</td>
+      <td>0.004060</td>
       <td>00:08</td>
     </tr>
   </tbody>
@@ -389,9 +411,9 @@ window.onload = wrap_img;
   <tbody>
     <tr>
       <td>0</td>
-      <td>0.039748</td>
-      <td>0.013981</td>
-      <td>0.004060</td>
+      <td>0.066467</td>
+      <td>0.028969</td>
+      <td>0.008119</td>
       <td>00:10</td>
     </tr>
   </tbody>
@@ -406,6 +428,33 @@ window.onload = wrap_img;
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>fine_tune()은 모든 가중치를 학습하는 것이 아니라 일부만 학습하는 것임. </li>
+<li>fine_tune()이외이 방법으로 학습할 수도 있음.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>(4)</code> lrnr.예측()</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>(방법1) lrnr.predict() 함수를 이용</p>
+
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -413,7 +462,9 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lrnr</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">path</span><span class="o">.</span><span class="n">ls</span><span class="p">()[</span><span class="mi">0</span><span class="p">])</span> <span class="c1"># 방법1</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lrnr</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="s1">'2022-09-06-hani03.jpg'</span><span class="p">)</span> <span class="c1"># 방법1-1</span>
+<span class="c1">#lrnr.predict(PILImage.create('2022-09-06-hani03.jpg')) # 방법1-2</span>
+<span class="c1">#lrnr.predict(path.ls()[0]) # 방법1-3</span>
 </pre></div>
 
     </div>
@@ -462,7 +513,7 @@ window.onload = wrap_img;
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>('dog', TensorBase(1), TensorBase([6.2770e-08, 1.0000e+00]))</pre>
+<pre>('dog', TensorBase(1), TensorBase([0.2726, 0.7274]))</pre>
 </div>
 
 </div>
@@ -473,6 +524,14 @@ window.onload = wrap_img;
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>(방법2) lrnr.model(X) 를 이용: X의 shape이 (?,3,224,224)의 형태의 텐서이어야함</p>
+
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -481,7 +540,7 @@ window.onload = wrap_img;
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span><span class="p">,</span><span class="n">y</span> <span class="o">=</span> <span class="n">dls</span><span class="o">.</span><span class="n">one_batch</span><span class="p">()</span> <span class="c1"># 방법2</span>
-<span class="n">lrnr</span><span class="o">.</span><span class="n">model</span><span class="p">(</span><span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">lrnr</span><span class="o">.</span><span class="n">model</span><span class="p">(</span><span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">])</span> 
 </pre></div>
 
     </div>
@@ -496,7 +555,7 @@ window.onload = wrap_img;
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>TensorBase([[-0.9806,  0.1236]], device='cuda:0', grad_fn=&lt;AliasBackward0&gt;)</pre>
+<pre>TensorBase([[-3.8654,  2.9234]], device='cuda:0', grad_fn=&lt;AliasBackward0&gt;)</pre>
 </div>
 
 </div>
@@ -519,7 +578,7 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><code>-</code> overview (fastai 한정)</p>
+<p><code>-</code> overview</p>
 <p>(1) <code>dls</code> 오브젝트 생성</p>
 <p>(2) <code>lrnr</code> 오브젝트 생성</p>
 <p>(3) <code>lrnr.학습()</code></p>
