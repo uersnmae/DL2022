@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "(1주차) 9월8일",
+            "title": "(2주차) 9월8일",
             "content": "&#44053;&#51032;&#50689;&#49345; . . imports . import pandas as pd from fastai.vision.all import * from fastai.collab import * . &#51648;&#45212;&#49884;&#44036; &#48373;&#49845; . (1) 데이터의 정리 . path = untar_data(URLs.PETS)/&#39;images&#39; . fnames = get_image_files(path) . f = lambda fname: &#39;cat&#39; if fname[0].isupper() else &#39;dog&#39; . dls = ImageDataLoaders.from_name_func( path, fnames, f, # f대신 (lambda fname: &#39;cat&#39; if fname[0].isupper() else &#39;dog&#39;) 를 넣어도 가능 item_tfms=Resize(224)) . (2) lrnr 오브젝트 생성 . lrnr = cnn_learner(dls,resnet34,metrics=error_rate) . (3) lrnr.학습() . lrnr.fine_tune(1) . epoch train_loss valid_loss error_rate time . 0 | 0.152362 | 0.015960 | 0.004060 | 00:08 | . epoch train_loss valid_loss error_rate time . 0 | 0.066467 | 0.028969 | 0.008119 | 00:10 | . fine_tune()은 모든 가중치를 학습하는 것이 아니라 일부만 학습하는 것임. | fine_tune()이외이 방법으로 학습할 수도 있음. | . (4) lrnr.예측() . (방법1) lrnr.predict() 함수를 이용 . lrnr.predict(&#39;2022-09-06-hani03.jpg&#39;) # 방법1-1 #lrnr.predict(PILImage.create(&#39;2022-09-06-hani03.jpg&#39;)) # 방법1-2 #lrnr.predict(path.ls()[0]) # 방법1-3 . (&#39;dog&#39;, TensorBase(1), TensorBase([0.2726, 0.7274])) . (방법2) lrnr.model(X) 를 이용: X의 shape이 (?,3,224,224)의 형태의 텐서이어야함 . X,y = dls.one_batch() # 방법2 lrnr.model(X[0:1]) . TensorBase([[-3.8654, 2.9234]], device=&#39;cuda:0&#39;, grad_fn=&lt;AliasBackward0&gt;) . &#54532;&#47196;&#44536;&#47000;&#48141; &#44284;&#51221; overview . - overview . (1) dls 오브젝트 생성 . (2) lrnr 오브젝트 생성 . (3) lrnr.학습() . (4) lrnr.예측() . - 비교 . 회귀분석(R) 이미지분석(CNN) 추천시스템 . 1단계 | data.frame() | ImageDataLoaders.from_name_func() | CollabDataLoaders.from_df() | . 2단계 | None | cnn_learner() | collab_learner() | . 3단계 | lm(y~x1+x2,df) | lrnr.fine_tune(1) | lrnr.fit() | . 4단계 | predict(ob,newdf) | lrnr.predict(), lrnr.model(X) | lrnr.model(X) | . &#49689;&#51228; . 아래의 함수들이 정의된 위치를 찾아보고 경로를 제출하라. . ImageDataLoaders.from_name_func | cnn_learner | lrnr.fine_tune | lrnr.predict | . 단, 여기에서 lrnr는 cnn_learner()로부터 생성된 오브젝트 이다. . 제출예시 . ImageDataLoaders.from_name_func . ~/anaconda3/envs/py37/lib/python3.7/site-packages/fastai/vision/data.py | .",
-            "url": "https://guebin.github.io/DL2022/2022/09/08/(1%EC%A3%BC%EC%B0%A8)-9%EC%9B%948%EC%9D%BC.html",
-            "relUrl": "/2022/09/08/(1%EC%A3%BC%EC%B0%A8)-9%EC%9B%948%EC%9D%BC.html",
+            "url": "https://guebin.github.io/DL2022/2022/09/08/(2%EC%A3%BC%EC%B0%A8)-9%EC%9B%948%EC%9D%BC.html",
+            "relUrl": "/2022/09/08/(2%EC%A3%BC%EC%B0%A8)-9%EC%9B%948%EC%9D%BC.html",
             "date": " • Sep 8, 2022"
         }
         
