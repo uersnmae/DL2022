@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -303,7 +303,7 @@ window.onload = wrap_img;
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="&#49373;&#49457;&#47784;&#54805;&#51060;&#46976;?-(&#49772;&#50868;-&#49444;&#47749;)">&#49373;&#49457;&#47784;&#54805;&#51060;&#46976;? (&#49772;&#50868; &#49444;&#47749;)<a class="anchor-link" href="#&#49373;&#49457;&#47784;&#54805;&#51060;&#46976;?-(&#49772;&#50868;-&#49444;&#47749;)"> </a></h4>
+<h3 id="&#49373;&#49457;&#47784;&#54805;&#51060;&#46976;?-(&#49772;&#50868;-&#49444;&#47749;)">&#49373;&#49457;&#47784;&#54805;&#51060;&#46976;? (&#49772;&#50868; &#49444;&#47749;)<a class="anchor-link" href="#&#49373;&#49457;&#47784;&#54805;&#51060;&#46976;?-(&#49772;&#50868;-&#49444;&#47749;)"> </a></h3>
 </div>
 </div>
 </div>
@@ -390,6 +390,74 @@ window.onload = wrap_img;
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="&#49373;&#49457;&#47784;&#54805;&#51060;&#46976;?-&#53685;&#44228;&#54617;&#44284;-&#48260;&#51204;&#51032;-&#49444;&#47749;">&#49373;&#49457;&#47784;&#54805;&#51060;&#46976;? &#53685;&#44228;&#54617;&#44284; &#48260;&#51204;&#51032; &#49444;&#47749;<a class="anchor-link" href="#&#49373;&#49457;&#47784;&#54805;&#51060;&#46976;?-&#53685;&#44228;&#54617;&#44284;-&#48260;&#51204;&#51032;-&#49444;&#47749;"> </a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p>제한된 정보만으로 어떤 문제를 풀 떄, 그 과정에서 원래의 문제보다 일반적인 문제를 풀지 말고, 가능한 원래의 문제를 직접 풀어야한다. 배프닉 (SVM 창시자)</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>-</code> 이미지 $\boldsymbol{x}$가 주어졌을 경우 라벨을 $y$라고 하자.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>-</code> 이미지를 보고 라벨을 맞추는 일은 $p(y| \boldsymbol{x})$에 관심이 있다.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>-</code> 이미지를 생성하는 일은 $p(\boldsymbol{x},y)$에 관심이 있는것이다.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>-</code> 데이터의 생성확률 $p(\boldsymbol{x},y)$을 알면 클래스의 사후확률 $p(y|\boldsymbol{x})$를 알 수 있음. (아래의 수식 참고) 하지만 역은 불가능</p>
+<p>
+$$p(y|x) = \frac{p(x,y)}{p(x)} = \frac{p(x,y)}{\sum_{y}p(x,y)} $$
+</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>즉 이미지를 생성하는일은 분류문제보다 더 어려운 일이라 해석가능 </li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>-</code> 따라서 배프닉의 원리에 의하면 식별적 분류가 생성적 분류보다 바람직한 접근법이라 할 수 있음.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>-</code> 하지만 다양한 현실문제에서 생성모형이 유용할때가 많다.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="GAN&#51032;-&#50896;&#47532;">GAN&#51032; &#50896;&#47532;<a class="anchor-link" href="#GAN&#51032;-&#50896;&#47532;"> </a></h3>
 </div>
 </div>
@@ -461,6 +529,30 @@ articles.</p>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[master 7f6bb52] .
+ 1 file changed, 236 insertions(+), 12 deletions(-)
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 3.71 KiB | 3.71 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/guebin/DL2022.git
+   604fa18..7f6bb52  master -&gt; master
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
