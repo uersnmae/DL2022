@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Title",
-            "content": "- 비교 . 이미지분석(CNN) 추천시스템 텍스트분석 GAN . 1단계 | ImageDataLoaders | CollabDataLoaders | TextDataLoaders | DataBlock -&gt; dls | . 2단계 | cnn_learner() | collab_learner() | language_model_learner() | GANLearner.wgan() | . 3단계 | lrnr.fine_tune(1) | lrnr.fit() | lrnr.fit() | lrnr.fit() | . 4단계 | lrnr.predict(), lrnr.model(X) | lrnr.model(X) | lrnr.predict() | | . - 지난시간 imports 수정할것.. .",
+            "content": "imports . # from fastai.vision.all import * ## 이미지분석 from fastai.collab import * ## 추천시스템 from fastai.text.all import * ## 텍스트분석 from fastai.vision.gan import * ## GAN (이미지생성) . import pandas as pd . fastai&#47484; &#51060;&#50857;&#54620; &#48516;&#49437; steps . - 비교 . 이미지분석(CNN) 추천시스템 텍스트분석 GAN . 1단계 | ImageDataLoaders | CollabDataLoaders | TextDataLoaders | DataBlock -&gt; dls | . 2단계 | cnn_learner() | collab_learner() | language_model_learner() | GANLearner.wgan() | . 3단계 | lrnr.fine_tune(1) | lrnr.fit() | lrnr.fit() | lrnr.fit() | . 4단계 | lrnr.predict(), lrnr.model(X) | lrnr.model(X) | lrnr.predict() | | . - 지난시간 imports 수정할것.. .",
             "url": "https://guebin.github.io/DL2022/2022/09/13/(2%EC%A3%BC%EC%B0%A8)-9%EC%9B%9413%EC%9D%BC.html",
             "relUrl": "/2022/09/13/(2%EC%A3%BC%EC%B0%A8)-9%EC%9B%9413%EC%9D%BC.html",
             "date": " • Sep 13, 2022"
